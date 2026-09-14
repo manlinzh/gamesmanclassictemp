@@ -10,6 +10,15 @@
 **
 ************************************************************************/
 
+/**
+* Notes from the authors
+* Moves will look like 122133144011020 <- in sets of three, first digit is the colour that you're changing the tile to, and the second and third digit is the tile you are changing. Order is as they are changed on the board.
+* In future for human-readable move strings, we will just scrape the positions belonging to digit 1
+* Positions will look like 1102000200100011010010 <- first digit is the PLAYER TURN (1 or 2), other digits correspond to colour of the tiles on the board in order, with 0 being empty, 1 being white, 2 being black. 20 total digits.
+
+
+*/
+
 #include "gamesman.h"
 
 CONST_STRING kAuthorName = "Samantha Weiss, Lachlan Watts-Tobin";
