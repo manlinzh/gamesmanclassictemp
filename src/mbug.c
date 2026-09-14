@@ -1,20 +1,20 @@
 /************************************************************************
 **
-** NAME:        m<your game name>.c
+** NAME:        mbug.c
 **
-** DESCRIPTION: <Your Game Name> (Use this spacing and case)
+** DESCRIPTION: Bug
 **
-** AUTHOR:      Firstname Lastname
+** AUTHOR:      Samantha Weiss, Lachlan Watts-Tobin
 **
-** DATE:        YYYY-MM-DD
+** DATE:        2026-14-09
 **
 ************************************************************************/
 
 #include "gamesman.h"
 
-CONST_STRING kAuthorName = "Firstname Lastname";
-CONST_STRING kGameName = "Your Game Name";  // Use this spacing and case
-CONST_STRING kDBName = "yourgamename";      // Use this spacing and case
+CONST_STRING kAuthorName = "Samantha Weiss, Lachlan Watts-Tobin";
+CONST_STRING kGameName = "Bug";  // Use this spacing and case
+CONST_STRING kDBName = "bug";      // Use this spacing and case
 
 /**
  * @brief An upper bound on the number of reachable positions.
